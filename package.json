@@ -1,0 +1,27 @@
+{
+  "name": "koa-seed-server",
+  "scripts": {
+    "start": "node_modules/.bin/nodemon server.js"
+  },
+  "author": "Scott Chen",
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^2.11.0",
+    "koa": "^2.3.0",
+    "koa-body": "^2.5.0",
+    "koa-compress": "^2.0.0",
+    "koa-convert": "^1.2.0",
+    "koa-cors": "^0.0.16",
+    "koa-json": "^2.0.2",
+    "koa-mongoose": "^2.0.0",
+    "koa-router": "^7.2.1",
+    "koa-static": "^4.0.1",
+    "koa-views": "^6.1.1",
+    "lodash": "^4.17.4",
+    "mongoose": "^4.12.3",
+    "nodemon": "^1.12.1",
+    "nunjucks": "^3.0.1",
+    "winston": "^2.4.0",
+    "winston-koa-logger": "^0.0.2"
+  }
+}
